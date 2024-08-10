@@ -88,6 +88,8 @@ main {
 
 .profile {
     background-color: var(--dark-blue);
+    width: 255px;
+    max-height: 518px;
 }
 
 .purple-container {
@@ -95,7 +97,7 @@ main {
 }
 
 .purple-container img {
-    width: 64px;
+    width: 78px;
     border-radius: 50%;
     border: 2px solid white;
     margin-bottom: 30px;
@@ -103,21 +105,23 @@ main {
 
 .purple-container span {
     color: var(--pale-blue);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .purple-container h2 {
     max-width: 138px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 300;
+    margin-bottom: 50px;
 }
 
 .profile .buttons button {
+    font-size: 19px;
     display: block;
     border: none;
     background-color: transparent;
     color: var(--desaturated-blue);
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 
 .profile .buttons button:hover, .settings:hover, .profile .buttons button.active {
@@ -144,7 +148,7 @@ main {
     background-color: var(--dark-blue);
     z-index: 2;
     position: relative;
-    height: 160px;
+    height: 195px;
     bottom: 30px;
     border-radius: 15px;
     transition: background-color 0.3s ease;
@@ -172,7 +176,7 @@ main {
 }
 
 .current {
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 1px;
     font-weight: 300;
 }
